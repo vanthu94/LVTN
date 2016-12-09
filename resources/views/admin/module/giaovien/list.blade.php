@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title','Thêm Thành Viên')
+@section('title','Danh Sách Giáo Viên')
 @section('content')
 <table class="list_table">
     <tr class="list_heading">

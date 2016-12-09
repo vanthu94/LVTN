@@ -1,5 +1,5 @@
 @extends('sinhvien.master')
-@section('title','Thêm Thành Viên')
+@section('title','Tạo Nhóm')
 @section('content')
 <form action="" method="POST" style="width: 650px;">
 	<input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -15,7 +15,7 @@
 		</span><br />
 		<span class="form_label">Năm Học:</span>
 		<span class="form_item">
-			<input type="number" name="namhoc" class="textbox" />
+			<input type="number" name="namhoc" class="textbox" min="2010"/>
 		</span><br />
 		<span class="form_label">Học Kì:</span>
 		<span class="form_item">

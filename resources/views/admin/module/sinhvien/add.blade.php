@@ -1,5 +1,5 @@
 @extends('admin.master')
-@section('title','Thêm Thành Viên')
+@section('title','Thêm Sinh Viên')
 @section('content')
 <form action="" method="POST" style="width: 650px;">
 	<input type="hidden" name="_token" value="{{ csrf_token() }}">
