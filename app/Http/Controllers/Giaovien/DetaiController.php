@@ -13,19 +13,6 @@ use DateTime,Auth;
 
 class DetaiController extends Controller
 {
-    
-    // public function getDetaiTTAdd () {
-    //     return view('giaovien.detaitt');
-    // }
-
-    // public function postDetaiTTAdd (Request $request) {
-    //     DB::table('ql64_dttttn')->insert(
-    //         [
-    //             'tttnid' => $request->tttnid    
-    //         ]
-    //     );
-    //     return redirect()->route('getDetaiList');
-    // }
 
     public function getDetaiAdd () {
     	return view('giaovien.detai.add');

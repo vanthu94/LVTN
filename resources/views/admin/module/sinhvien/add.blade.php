@@ -4,7 +4,7 @@
 <form action="" method="POST" style="width: 650px;">
 	<input type="hidden" name="_token" value="{{ csrf_token() }}">
 	<fieldset>
-		<legend>Thông Tin Sinh Viên</legend>
+		<legend>Thêm Sinh Viên</legend>
 		<span class="form_label">MSSV:</span>
 		<span class="form_item">
 			<input type="text" name="MSSV" class="textbox" />
