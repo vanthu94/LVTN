@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use DateTime,Auth;
 
 class Login1Controller extends Controller
 {
@@ -52,7 +53,7 @@ class Login1Controller extends Controller
         else if(Auth::attempt($sinhvien, true)){
             return redirect('qho_sinhvien');
         }
-        else if(Auth::attempt($giaovien)){
+        else if(Auth::attempt($giaovien, true)){
             return redirect('qho_giaovien');
         } else {
         	return redirect()->back();

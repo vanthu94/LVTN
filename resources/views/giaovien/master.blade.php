@@ -3,13 +3,13 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="{!! asset('public/qt64_admin/templates/css/style.css') !!}" />
-	<title>Teacher Area </title>
+	<title>Giảng Viên</title>
 </head>
 
 <body>
 <div id="layout">
     <div id="top">
-        Teacher Area
+        Giảng Viên
     </div>
 	<div id="menu">
 		<table width="100%">
@@ -21,7 +21,7 @@
 					| <a href="{!! route('getDetaiAdd') !!}">Thêm đề tài</a> 
 				</td>
 				<td align="right">
-					Xin chào {!! Auth::user()->username !!} | <a href="{!! url('logout') !!}">Logout</a>
+					Xin chào {!! Auth::user()->username !!} | <a href="{!! url('logout') !!}">Đăng Xuất</a>
 				</td>
 			</tr>
 		</table>

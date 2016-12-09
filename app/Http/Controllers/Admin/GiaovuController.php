@@ -22,7 +22,8 @@ class GiaovuController extends Controller
 				'fullname'	=> $request->txtHoten,
 				'gioitinh'	=> $request->rdoGioitinh,
 				'email'		=> $request->txtEmail,
-				'phone'		=> (int)$request->phone, 	
+				'phone'		=> (int)$request->phone,
+				'created_at' => new DateTime(), 	
 			]
 		);
 

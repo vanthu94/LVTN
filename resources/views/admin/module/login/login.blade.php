@@ -3,12 +3,12 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="{!! asset('public/qt64_admin/templates/css/style.css') !!}" />
-    <title>Area :: Login</title>
+    <title>Đăng nhập</title>
 </head>
 <body>
 <div id="layout">
     <div id="top">
-        Area :: Login
+        Đăng Nhập
     </div>
     <div id="main">
         @include('admin.blocks.error')        
@@ -20,11 +20,11 @@
                     <tr>
                         <td class="login_img"></td>
                         <td>
-                            <span class="form_label">Username:</span>
+                            <span class="form_label">Tài Khoản:</span>
                             <span class="form_item">
                                 <input type="text" name="txtUser" class="textbox" />
                             </span><br />
-                            <span class="form_label">Password:</span>
+                            <span class="form_label">Mật Khẩu:</span>
                             <span class="form_item">
                                 <input type="password" name="txtPass" class="textbox" />
                             </span><br />
