@@ -7,7 +7,6 @@ use App\Http\Requests;
 use App\Http\Requests\LoginRequest;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
-
 use App\Models\Sinhvien;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;

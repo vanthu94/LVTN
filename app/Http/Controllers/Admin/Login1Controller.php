@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
-use DateTime,Auth;
 
 class Login1Controller extends Controller
 {
